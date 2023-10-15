@@ -137,6 +137,9 @@
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb5.resx">
+      <DependentUpon>FrmProb5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmProb6.resx">
       <DependentUpon>FrmProb6.vb</DependentUpon>
     </EmbeddedResource>

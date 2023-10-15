@@ -13,17 +13,14 @@
                 If vector(i) >= 1000 Then
                     cont1 += 1
                     suma1 += vector(i)
-                    MsgBox("Mayor a 1000")
 
                 ElseIf vector(i) <= 500 Then
                     cont2 += 1
                     suma2 += vector(i)
-                    MsgBox("Menor 500")
 
                 ElseIf vector(i) > 500 And vector(i) < 1000 Then
                     Cont3 += 1
                     suma3 += vector(i)
-                    MsgBox("Mayor a 500 y Menor a 1000")
 
                 Else
                     MsgBox("Valor Incorrecto")

@@ -73,6 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clases\CSVReader.vb" />
     <Compile Include="FrmPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +136,9 @@
   <ItemGroup>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb6.resx">
+      <DependentUpon>FrmProb6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

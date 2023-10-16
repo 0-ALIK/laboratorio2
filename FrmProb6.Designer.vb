@@ -168,6 +168,7 @@ Partial Class FrmProb6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.laboratorio2.My.Resources.Resources.mitchell_luo_xREzOtWzDrQ_unsplash__1_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(738, 484)
         Me.Controls.Add(Me.Label6)

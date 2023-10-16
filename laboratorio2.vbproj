@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clases\ClassFrmProb1.vb" />
+    <Compile Include="clases\CSVReader.vb" />
     <Compile Include="FrmPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmProb1.resx">
       <DependentUpon>FrmProb1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb5.resx">
+      <DependentUpon>FrmProb5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb6.resx">
+      <DependentUpon>FrmProb6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

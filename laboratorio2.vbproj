@@ -156,6 +156,9 @@
     <EmbeddedResource Include="FrmProb3.resx">
       <DependentUpon>FrmProb3.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb4.resx">
+      <DependentUpon>FrmProb4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>

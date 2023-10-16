@@ -82,7 +82,7 @@ Partial Class FrmProb5
         Me.Panel1.Controls.Add(Me.ListBoxResultados)
         Me.Panel1.Controls.Add(Me.TextBoxCadena)
         Me.Panel1.Location = New System.Drawing.Point(113, 74)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(580, 387)
         Me.Panel1.TabIndex = 4
@@ -103,7 +103,6 @@ Partial Class FrmProb5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.laboratorio2.My.Resources.Resources.mitchell_luo_xREzOtWzDrQ_unsplash__1_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(738, 484)
         Me.Controls.Add(Me.Label2)

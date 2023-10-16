@@ -28,79 +28,105 @@ Partial Class FrmProb3
         Me.txtNumero = New System.Windows.Forms.TextBox()
         Me.txtResultado = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(107, 248)
+        Me.Button1.BackColor = System.Drawing.Color.Sienna
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(205, 173)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(366, 39)
+        Me.Button1.Size = New System.Drawing.Size(126, 49)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Enviar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(101, 177)
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(79, 38)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(227, 32)
+        Me.Label2.Size = New System.Drawing.Size(142, 21)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Colocar Numero:"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(345, 77)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(310, 42)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(337, 51)
+        Me.Label1.Size = New System.Drawing.Size(176, 48)
         Me.Label1.TabIndex = 8
-        Me.Label1.Text = "Revertir Numero"
+        Me.Label1.Text = "BIENVENIDO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Revertir Numero"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'txtNumero
         '
-        Me.txtNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNumero.Location = New System.Drawing.Point(334, 174)
+        Me.txtNumero.BackColor = System.Drawing.Color.Sienna
+        Me.txtNumero.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumero.Location = New System.Drawing.Point(48, 84)
+        Me.txtNumero.Multiline = True
         Me.txtNumero.Name = "txtNumero"
-        Me.txtNumero.Size = New System.Drawing.Size(139, 38)
+        Me.txtNumero.Size = New System.Drawing.Size(173, 32)
         Me.txtNumero.TabIndex = 7
         '
         'txtResultado
         '
-        Me.txtResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtResultado.Location = New System.Drawing.Point(732, 225)
+        Me.txtResultado.BackColor = System.Drawing.Color.Sienna
+        Me.txtResultado.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResultado.Location = New System.Drawing.Point(307, 84)
+        Me.txtResultado.Multiline = True
         Me.txtResultado.Name = "txtResultado"
         Me.txtResultado.ReadOnly = True
-        Me.txtResultado.Size = New System.Drawing.Size(139, 38)
+        Me.txtResultado.Size = New System.Drawing.Size(188, 32)
         Me.txtResultado.TabIndex = 11
         Me.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(685, 180)
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(303, 38)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(230, 32)
+        Me.Label3.Size = New System.Drawing.Size(147, 21)
         Me.Label3.TabIndex = 12
         Me.Label3.Text = "Numero Invertido"
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.txtResultado)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.txtNumero)
+        Me.Panel1.Location = New System.Drawing.Point(117, 129)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(544, 323)
+        Me.Panel1.TabIndex = 13
+        '
         'FrmProb3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1135, 450)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.txtResultado)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label2)
+        Me.BackgroundImage = Global.laboratorio2.My.Resources.Resources.mitchell_luo_xREzOtWzDrQ_unsplash__1_
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ClientSize = New System.Drawing.Size(738, 484)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtNumero)
+        Me.Controls.Add(Me.Panel1)
+        Me.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "FrmProb3"
         Me.Text = "FrmProb3"
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -111,4 +137,5 @@ Partial Class FrmProb3
     Friend WithEvents txtNumero As TextBox
     Friend WithEvents txtResultado As TextBox
     Friend WithEvents Label3 As Label
+    Friend WithEvents Panel1 As Panel
 End Class

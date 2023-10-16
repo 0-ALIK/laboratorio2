@@ -82,14 +82,6 @@
       <DependentUpon>FrmPrincipal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\FrmProb1.Designer.vb">
-      <DependentUpon>FrmProb1.vb</DependentUpon>
-      <Link>FrmProb1.Designer.vb</Link>
-    </Compile>
-    <Compile Include="..\..\FrmProb1.vb">
-      <SubType>Form</SubType>
-      <Link>FrmProb1.vb</Link>
-    </Compile>
     <Compile Include="FrmProb2.Designer.vb">
       <DependentUpon>FrmProb2.vb</DependentUpon>
     </Compile>
@@ -120,6 +112,12 @@
     <Compile Include="FrmProb6.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmProblema1.Designer.vb">
+      <DependentUpon>FrmProblema1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProblema1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -142,10 +140,6 @@
   <ItemGroup>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\..\FrmProb1.resx">
-      <DependentUpon>FrmProb1.vb</DependentUpon>
-      <Link>FrmProb1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmProb5.resx">
       <DependentUpon>FrmProb5.vb</DependentUpon>

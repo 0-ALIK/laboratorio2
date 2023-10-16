@@ -178,13 +178,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mitchell-luo-xREzOtWzDrQ-unsplash %281%29.jpg" />
-<<<<<<< HEAD
     <Content Include="Resources\philipp-pilz-AOhBMkQlzgM-unsplash.jpg" />
     <Content Include="Resources\thanos-pal-vb-hPUzfpBo-unsplash.jpg" />
     <Content Include="Resources\will-swann - hMgQqhiyos-unsplash.jpg" />
     <Content Include="rsc\thanos-pal-vb-hPUzfpBo-unsplash.jpg" />
-=======
->>>>>>> gustavo-leoteau
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

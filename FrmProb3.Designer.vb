@@ -71,21 +71,21 @@ Partial Class FrmProb3
         '
         Me.txtNumero.BackColor = System.Drawing.Color.Sienna
         Me.txtNumero.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNumero.Location = New System.Drawing.Point(48, 84)
+        Me.txtNumero.Location = New System.Drawing.Point(33, 84)
         Me.txtNumero.Multiline = True
         Me.txtNumero.Name = "txtNumero"
-        Me.txtNumero.Size = New System.Drawing.Size(173, 32)
+        Me.txtNumero.Size = New System.Drawing.Size(213, 43)
         Me.txtNumero.TabIndex = 7
         '
         'txtResultado
         '
         Me.txtResultado.BackColor = System.Drawing.Color.Sienna
         Me.txtResultado.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtResultado.Location = New System.Drawing.Point(307, 84)
+        Me.txtResultado.Location = New System.Drawing.Point(290, 84)
         Me.txtResultado.Multiline = True
         Me.txtResultado.Name = "txtResultado"
         Me.txtResultado.ReadOnly = True
-        Me.txtResultado.Size = New System.Drawing.Size(188, 32)
+        Me.txtResultado.Size = New System.Drawing.Size(223, 43)
         Me.txtResultado.TabIndex = 11
         Me.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '

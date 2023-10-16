@@ -37,7 +37,7 @@ Partial Class FrmProb2
         '
         Me.txtTemp.BackColor = System.Drawing.Color.Sienna
         Me.txtTemp.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTemp.Location = New System.Drawing.Point(146, 61)
+        Me.txtTemp.Location = New System.Drawing.Point(128, 62)
         Me.txtTemp.Name = "txtTemp"
         Me.txtTemp.Size = New System.Drawing.Size(47, 31)
         Me.txtTemp.TabIndex = 0
@@ -45,6 +45,7 @@ Partial Class FrmProb2
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(271, 30)
         Me.Label1.Name = "Label1"
@@ -57,7 +58,7 @@ Partial Class FrmProb2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(23, 64)
+        Me.Label2.Location = New System.Drawing.Point(93, 20)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(117, 21)
         Me.Label2.TabIndex = 2
@@ -67,7 +68,7 @@ Partial Class FrmProb2
         '
         Me.Button1.BackColor = System.Drawing.Color.Sienna
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(51, 117)
+        Me.Button1.Location = New System.Drawing.Point(49, 121)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(152, 52)
         Me.Button1.TabIndex = 3
@@ -76,12 +77,13 @@ Partial Class FrmProb2
         '
         'lvTemps
         '
-        Me.lvTemps.BackColor = System.Drawing.Color.Sienna
-        Me.lvTemps.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lvTemps.BackColor = System.Drawing.Color.Snow
+        Me.lvTemps.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lvTemps.HideSelection = False
-        Me.lvTemps.Location = New System.Drawing.Point(279, 48)
+        Me.lvTemps.LabelWrap = False
+        Me.lvTemps.Location = New System.Drawing.Point(234, 48)
         Me.lvTemps.Name = "lvTemps"
-        Me.lvTemps.Size = New System.Drawing.Size(286, 156)
+        Me.lvTemps.Size = New System.Drawing.Size(407, 195)
         Me.lvTemps.TabIndex = 4
         Me.lvTemps.UseCompatibleStateImageBehavior = False
         Me.lvTemps.View = System.Windows.Forms.View.List
@@ -90,7 +92,7 @@ Partial Class FrmProb2
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(199, 64)
+        Me.Label3.Location = New System.Drawing.Point(181, 65)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(29, 21)
         Me.Label3.TabIndex = 5
@@ -100,7 +102,7 @@ Partial Class FrmProb2
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(307, 207)
+        Me.Label4.Location = New System.Drawing.Point(312, 246)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(215, 21)
         Me.Label4.TabIndex = 6
@@ -116,15 +118,16 @@ Partial Class FrmProb2
         Me.Panel1.Controls.Add(Me.txtTemp)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Location = New System.Drawing.Point(84, 131)
+        Me.Panel1.Location = New System.Drawing.Point(25, 131)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(597, 311)
+        Me.Panel1.Size = New System.Drawing.Size(656, 311)
         Me.Panel1.TabIndex = 7
         '
         'FrmProb2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 21.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.laboratorio2.My.Resources.Resources.mitchell_luo_xREzOtWzDrQ_unsplash__1_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(738, 484)
         Me.Controls.Add(Me.Label1)

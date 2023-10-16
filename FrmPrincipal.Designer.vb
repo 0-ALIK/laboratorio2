@@ -55,7 +55,7 @@ Partial Class FrmPrincipal
         Me.ButtonProb2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonProb2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonProb2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ButtonProb2.Location = New System.Drawing.Point(16, 140)
+        Me.ButtonProb2.Location = New System.Drawing.Point(165, 35)
         Me.ButtonProb2.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonProb2.Name = "ButtonProb2"
         Me.ButtonProb2.Size = New System.Drawing.Size(121, 55)
@@ -70,7 +70,7 @@ Partial Class FrmPrincipal
         Me.ButtonProb3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonProb3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonProb3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ButtonProb3.Location = New System.Drawing.Point(165, 35)
+        Me.ButtonProb3.Location = New System.Drawing.Point(313, 35)
         Me.ButtonProb3.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonProb3.Name = "ButtonProb3"
         Me.ButtonProb3.Size = New System.Drawing.Size(121, 55)
@@ -85,7 +85,7 @@ Partial Class FrmPrincipal
         Me.ButtonProb4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonProb4.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonProb4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ButtonProb4.Location = New System.Drawing.Point(165, 140)
+        Me.ButtonProb4.Location = New System.Drawing.Point(16, 140)
         Me.ButtonProb4.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonProb4.Name = "ButtonProb4"
         Me.ButtonProb4.Size = New System.Drawing.Size(121, 55)
@@ -100,7 +100,7 @@ Partial Class FrmPrincipal
         Me.ButtonProb5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonProb5.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonProb5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ButtonProb5.Location = New System.Drawing.Point(313, 35)
+        Me.ButtonProb5.Location = New System.Drawing.Point(165, 140)
         Me.ButtonProb5.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonProb5.Name = "ButtonProb5"
         Me.ButtonProb5.Size = New System.Drawing.Size(121, 55)

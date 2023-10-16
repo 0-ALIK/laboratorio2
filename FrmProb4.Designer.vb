@@ -58,12 +58,12 @@ Partial Class FrmProb4
         Me.txtBoxR.BackColor = System.Drawing.Color.Sienna
         Me.txtBoxR.Cursor = System.Windows.Forms.Cursors.No
         Me.txtBoxR.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBoxR.Location = New System.Drawing.Point(224, 77)
+        Me.txtBoxR.Location = New System.Drawing.Point(201, 77)
         Me.txtBoxR.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtBoxR.Multiline = True
         Me.txtBoxR.Name = "txtBoxR"
         Me.txtBoxR.ReadOnly = True
-        Me.txtBoxR.Size = New System.Drawing.Size(300, 70)
+        Me.txtBoxR.Size = New System.Drawing.Size(328, 102)
         Me.txtBoxR.TabIndex = 3
         Me.txtBoxR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '

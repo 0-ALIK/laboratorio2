@@ -35,7 +35,7 @@ Partial Class FrmProb5
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(31, 38)
+        Me.Label1.Location = New System.Drawing.Point(27, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(152, 21)
         Me.Label1.TabIndex = 0
@@ -45,10 +45,10 @@ Partial Class FrmProb5
         '
         Me.TextBoxCadena.BackColor = System.Drawing.Color.Sienna
         Me.TextBoxCadena.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxCadena.Location = New System.Drawing.Point(201, 38)
+        Me.TextBoxCadena.Location = New System.Drawing.Point(201, 20)
         Me.TextBoxCadena.Multiline = True
         Me.TextBoxCadena.Name = "TextBoxCadena"
-        Me.TextBoxCadena.Size = New System.Drawing.Size(316, 28)
+        Me.TextBoxCadena.Size = New System.Drawing.Size(316, 64)
         Me.TextBoxCadena.TabIndex = 1
         '
         'ListBoxResultados
@@ -56,9 +56,9 @@ Partial Class FrmProb5
         Me.ListBoxResultados.BackColor = System.Drawing.Color.Snow
         Me.ListBoxResultados.FormattingEnabled = True
         Me.ListBoxResultados.ItemHeight = 18
-        Me.ListBoxResultados.Location = New System.Drawing.Point(71, 90)
+        Me.ListBoxResultados.Location = New System.Drawing.Point(68, 90)
         Me.ListBoxResultados.Name = "ListBoxResultados"
-        Me.ListBoxResultados.Size = New System.Drawing.Size(373, 202)
+        Me.ListBoxResultados.Size = New System.Drawing.Size(449, 202)
         Me.ListBoxResultados.TabIndex = 2
         '
         'ButtonEjecutar
@@ -76,7 +76,8 @@ Partial Class FrmProb5
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FloralWhite
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.ButtonEjecutar)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.ListBoxResultados)
@@ -103,6 +104,7 @@ Partial Class FrmProb5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.laboratorio2.My.Resources.Resources.mitchell_luo_xREzOtWzDrQ_unsplash__1_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(738, 484)
         Me.Controls.Add(Me.Label2)

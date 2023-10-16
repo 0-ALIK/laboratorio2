@@ -53,27 +53,27 @@ Partial Class FrmProb6
         '
         Me.TextBoxMas.BackColor = System.Drawing.Color.Sienna
         Me.TextBoxMas.Font = New System.Drawing.Font("Century Gothic", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxMas.Location = New System.Drawing.Point(28, 223)
+        Me.TextBoxMas.Location = New System.Drawing.Point(19, 206)
         Me.TextBoxMas.Multiline = True
         Me.TextBoxMas.Name = "TextBoxMas"
-        Me.TextBoxMas.Size = New System.Drawing.Size(182, 51)
+        Me.TextBoxMas.Size = New System.Drawing.Size(232, 78)
         Me.TextBoxMas.TabIndex = 1
         '
         'TextBoxMenos
         '
         Me.TextBoxMenos.BackColor = System.Drawing.Color.Sienna
         Me.TextBoxMenos.Font = New System.Drawing.Font("Century Gothic", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxMenos.Location = New System.Drawing.Point(278, 223)
+        Me.TextBoxMenos.Location = New System.Drawing.Point(296, 206)
         Me.TextBoxMenos.Multiline = True
         Me.TextBoxMenos.Name = "TextBoxMenos"
-        Me.TextBoxMenos.Size = New System.Drawing.Size(227, 51)
+        Me.TextBoxMenos.Size = New System.Drawing.Size(235, 78)
         Me.TextBoxMenos.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(29, 182)
+        Me.Label1.Location = New System.Drawing.Point(29, 173)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(181, 21)
         Me.Label1.TabIndex = 3
@@ -83,7 +83,7 @@ Partial Class FrmProb6
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(305, 182)
+        Me.Label2.Location = New System.Drawing.Point(305, 173)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(200, 21)
         Me.Label2.TabIndex = 4

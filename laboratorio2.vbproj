@@ -81,11 +81,13 @@
       <DependentUpon>FrmPrincipal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmProb1.Designer.vb">
+    <Compile Include="..\..\FrmProb1.Designer.vb">
       <DependentUpon>FrmProb1.vb</DependentUpon>
+      <Link>FrmProb1.Designer.vb</Link>
     </Compile>
-    <Compile Include="FrmProb1.vb">
+    <Compile Include="..\..\FrmProb1.vb">
       <SubType>Form</SubType>
+      <Link>FrmProb1.vb</Link>
     </Compile>
     <Compile Include="FrmProb2.Designer.vb">
       <DependentUpon>FrmProb2.vb</DependentUpon>
@@ -137,8 +139,9 @@
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmProb1.resx">
+    <EmbeddedResource Include="..\..\FrmProb1.resx">
       <DependentUpon>FrmProb1.vb</DependentUpon>
+      <Link>FrmProb1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

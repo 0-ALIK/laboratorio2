@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clases\ClassFrmProb1.vb" />
+    <Compile Include="clases\CSVReader.vb" />
     <Compile Include="FrmPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +124,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -134,6 +136,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="modulos\sensorTemp.vb" />
+    <Compile Include="modulos\numeroRevez.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FrmPrincipal.resx">
@@ -142,6 +146,21 @@
     <EmbeddedResource Include="..\..\FrmProb1.resx">
       <DependentUpon>FrmProb1.vb</DependentUpon>
       <Link>FrmProb1.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb5.resx">
+      <DependentUpon>FrmProb5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb6.resx">
+      <DependentUpon>FrmProb6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb2.resx">
+      <DependentUpon>FrmProb2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb3.resx">
+      <DependentUpon>FrmProb3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProb4.resx">
+      <DependentUpon>FrmProb4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

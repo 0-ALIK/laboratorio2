@@ -67,6 +67,7 @@ Partial Class FrmProb1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.Label6)
@@ -271,6 +272,7 @@ Partial Class FrmProb1
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.OldLace
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Controls.Add(Me.btnClear)
         Me.Panel2.Controls.Add(Me.txtCantidad)
